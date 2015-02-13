@@ -1,0 +1,17 @@
+<p>Please select a table to edit an entry from the following:</p>
+<br>
+<form action="/edit_menu">
+  
+  <input type="radio" name="table" value=<%= "Product" %>>Products
+  <br>
+  <input type="radio" name="table" value=<%= "Category" %>>Categories
+  <br>
+  <input type="radio" name="table" value=<%= "Location" %>>Locations 
+  <br>
+  <br>
+  <label for="id">ID:</label>
+  <input type="text" name="id" value=>
+  <input type="submit">
+</form>
+
+<p>And Select the ID of the item you wish to edit.</p>

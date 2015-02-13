@@ -1,0 +1,19 @@
+
+
+<p>Please Enter New Attributes</p>
+<form action="/cram">
+   
+   <% @var.each do |x| %>
+   <%= x %>
+   <input type="text" name=<%= x %>>
+   <% end %>
+   <br>
+   <br>
+   <button type="submit">Submit</button>
+
+  <input type="hidden" name="id" value="<%= @id %>">
+  <input type="hidden" name="table" value= "<%= @table %>">
+  
+
+</form>
+  

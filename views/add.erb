@@ -1,0 +1,14 @@
+<h2>Please select a table to add an entry from the following:</h2>
+<br>
+<p>You must add locations first, and then categories, and then products.</p>
+<form action="/add_menu">
+  
+  <input type="radio" name="table" value=<%= "Product" %>>Products
+  <br>
+  <input type="radio" name="table" value=<%= "Category" %>>Categories
+  <br>
+  <input type="radio" name="table" value=<%= "Location" %>>Locations 
+  <br>
+  <br>
+  <button type="submit">Submit</button>
+</form>

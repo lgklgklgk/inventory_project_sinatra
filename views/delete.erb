@@ -1,0 +1,16 @@
+<p>Please select a table to delete an entry from the following:</p>
+<br>
+<form action="/delete_menu">
+  
+  <input type="radio" name="table" value=<%= "Product" %>>Products
+  <br>
+  <input type="radio" name="table" value=<%= "Category" %>>Categories
+  <br>
+  <input type="radio" name="table" value=<%= "Location" %>>Locations 
+  <br>
+  <br>
+  <label for="id">ID:</label>
+  <input type="text" name="id" value=>
+  
+  <button type="submit">Submit</button>
+</form>
